@@ -1,0 +1,154 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Fallyn Thompson Browes"
+  label: "Data Scientist & Data Visualization Specialist"
+  picture: "https://raw.githubusercontent.com/FThompsonBrowes/FallynThompson/main/assets/img/myphoto.jpg"
+  email: "fallyn.n.thompson@gmail.com"
+  phone: "+1 (778) 873-9528"
+  summary: >
+    As a global project manager, I have 10 years experience distilling complex data into clear, 
+    accessible findings successfully implemented across multi-disciplinary teams. I enjoy tackling 
+    pain points that require scoping projects from conception, collaborating across departments, 
+    and ensuring data literacy support.<br />
+    <br />
+    My expertise is sorting through a mess of raw data to pull out actionable insights and achieve 
+    real-time analytics that drive decision-making. My past projects have focused on working with 
+    dirty data and building infographics and dashboards for a range of stakeholders from the Government 
+    of Canada Department of Foreign Affairs, UNICEF, Fortune 500s, and nonprofits.<br />
+    <br />
+    Specialties: SQL, Python (timeseries, market basket measures analysis, Plotly), Tableau, Infographics and Dashboards<br />
+    Areas of Interest: anomaly detection, behavioural economics, cross-cultural studies, women and children's healthcare, global healthcare<br />
+  location:
+    address: ""
+    postalCode: ""
+    city: "Vancouver"
+    countryCode: "Canada"
+    region: "British Columbia"
+  profiles:
+    - network: "LinkedIn"
+      username: "Fallyn Thompson Browes"
+      url: "https://linkedin.com/in/fallyn-thompson-browes-394529a5"
+work:
+  - company: "BrainStation"
+    position: "Promotion: Educator, Data Scientist"
+    website: "https://brainstation.io/course/online/remote-data-science-bootcamp"
+    startDate: "2021-07-01"
+    endDate: "2023-03-01"
+    highlights:
+      - "Deliver the 12-week Data Science Diploma program, specializing in querying and programming languages (SQL, Python, R) and visualization tools (Tableau, Python packages)"
+      - "Produce and update new lesson and solution files for the Data Science Program curriculum; lessons contributed to date include working with Big Data (Hadoop, Spark, Hive, AWS EMR), time series, CNNs, Scripting etc."
+      - "Engage Scrum Agile Methodology using Jira to manage projects and facilitate cross-team collaboration"
+      - "Troubleshoot and set-up machine learning environments on Microsoft Windows, Mac OS X, and Linux"
+  - company: "CanWaCH - The Canadian Partnership for Women and Children's Health"
+    position: "Global Health Metrics Officer"
+    website: "https://canwach.ca"
+    startDate: "2018-10-01"
+    endDate: "2021-04-01"
+    highlights:
+      - "Lead data scientist of the CanWaCH PostgreSQL database(s), hosting and information architecture remediation project; managing contract developers working in JavaScript, HTML, Python, Go, CSS, PLpgSQL, Shell, PHP, Groovy, Java, YAML and other"
+      - "Junior database administrator responsible for the set-up of the CanWaCH remote PostgreSQL server (using PuTTY and DBeaver), GitHub, Tableau Online, Tableau Public and Google Cloud (GCP)"
+      - "Software developer of the CanWaCH bilingual Analytics Portal powered by Tableau (Hosted:10.2018-01.2023)<ul><li>Tableau Public: <a href='https://public.tableau.com/app/profile/canwach' target='_blank'>CanWach(EN)</a> | <a href='https://public.tableau.com/app/profile/cansfe' target='_blank'>CanSFE(FR)</a></li></ul>"
+      - "Incorporated data dissemination principles and user-centric design into the CanWaCH Data Strategy 2020-2025; connecting the sector with low-barrier to entry data tools to facilitate data sharing and ensure technology optimization across platforms"
+      - "Published bilingual MEL documentation and research reports ranging from the Analytics Portal Methodology and SOP to customized quantitative and qualitative disaggregated evaluations; for audiences such as Global Affairs Canada, Global Canada, Guttmacher Institute, International Aid Transparency Initiative (IATI) and the CanWaCH Metrics Working Group"  
+  - company: "iData Research"
+    position: "Promotion: Business Unit Leader"
+    website: "https://idataresearch.com"
+    startDate: "2016-04-01"
+    endDate: "2018-05-01"
+    highlights:
+      - "Manager of the Endoscopy business unit"
+      - "Led consulting projects on healthcare in Canada and international emerging markets"
+      - "Designed project research methodology and tools for data collection and analysis"
+      - "Produced online surveys, statistical models, dashboards, infographics and press releases"
+      - "Wrote quantitative and qualitative research reports, receiving consistent 10/10 client net promoter scores"
+      - "Established new sales pipeline and activity metrics, resulting in 100% department revenue growth from Q1 to Q2 2017"
+  - company: "Independent Research Project"
+    position: "Dyspareunia - Provoked Vestibulodynia and Interstitial Cystitis Education"
+    website: ""
+    startDate: "2014-05-01"
+    endDate: "2015-12-01"
+    highlights:
+      - "Researched multi-disciplinary treatments for dyspareunia encompassing psychoeducational, non-invasive and surgical treatment options"
+      - "Gained knowledge from healthcare specialists in Gynaecology and Urology; most notably:<ul><li>Dr. Sydney Thomson, M.D., FRCSC–Gynaecology, Vancouver General Hospital</li><li>Dr. Joel Teichman, M.D., FRCSC–Urology & Interstitial Cystitis specialist, St. Paul’s Hospital</li><li>Anniken Chadwick, Pelvic Health Physiotherapy and Acupuncture</li></ul>"
+      - "Participated in the UBC Department of Gynaecology and Vancouver General Hospital Multidisciplinary Vulvodynia Program (MVP)"
+  - company: "Canadian Red Cross Society"
+    position: "Program Assistant, Disaster Management (3 Month Grant)"
+    website: "https://www.redcross.ca/about-us/red-cross-stories/2015/red-cross-provides-relief-as-saskatchewan-fires-force-13-000-from-homes"
+    startDate: "2015-05-01"
+    endDate: "2015-07-01"
+    highlights:
+      - "Selected as a Shelter Supervisor during the 2015 Saskatchewan Wildfire Evacuation, the largest in provincial history"
+      - "Completed coding, expenses, and budget tracking for the Disaster Management department"
+      - "Applied monitoring and evaluation tools to solve program gaps, such as consolidating electronic records and writing Excel VBA macros to enable family reunification"
+  - company: "Aon Reed Stenhouse, Inc."
+    position: "Promotion: Broker and Account Executive, Aon Global Client Network"
+    website: "https://www.aon.com/canada/default.jsp"
+    startDate: "2013-06-01"
+    endDate: "2015-03-01"
+    highlights:
+      - "Managed sales and client portfolios for global commercial business, with premiums exceeding $600,000"
+      - "Performed quantitative data analysis to develop custom programs, achieving improved client protection"
+      - "Issued legislation updates, advising on federal excise tax and trade regulations"
+  - company: "International Zinc Association"
+    position: "International Development Research Consultant"
+    website: "https://www.zinc.org/"
+    startDate: "2010-05-01"
+    endDate: "2010-09-01"
+    highlights:
+      - "Conducted research and administrative support for UNICEF’s Zinc Saves Kids campaign"
+      - "Contributed to the zinc subsidy legislation Nutrient Based Subsidization Scheme (NBSS), adopted by the Government of India, Ministry of Chemicals and Fertilizers"
+      - "Identified organizations with partnership potential, resulting in two joint programs expanding the Zinc Nutrient Initiative’s distribution network<ul><li>World Food Program “Mid-Day Meals” (MDM) Scheme</li><li>Re-branding the ZNI’s campaign to primarily focus on healthcare instead of economic incentives, building a collaboration with the Government of India, Ministry of Health and Family Welfare</li></ul>"
+      - "Customized an interactive price quality matrix, providing a clear price vs. quality comparison of fertilizer options for consumers"
+      - "Authored two cross-cultural research reports, outlining methods for maximizing return on investment"
+education:
+  - institution: "Simon Fraser University, Vancouver, Canada"
+    area: "Canadian Risk Management Program, Honours"
+    startDate: "2014-09-01"
+    endDate: "2015-07-01"
+  - institution: "McGill University, Montreal, Canada"
+    area: "International Development Studies, Double Minor: Economics and International Relations"
+    studyType: "BA:"
+    startDate: "2007-09-01"
+    endDate: "2012-04-01"
+awards:
+  - title: "Top 100 Recovery Project Award 2020; CanWaCH Project Explorer tool"
+    date: "2020-09-01"
+    awarder: "<a href='https://100recoveryprojects.futureofgood.co/sdg/the-canwach-project-explorer/'>Future of Good</a>"
+skills:
+  - name: "Coding Languages & Big Data"
+    level: "Master"
+    keywords:
+      - "SQL"
+      - "Python"
+      - "VBA"
+      - "Apache: Hadoop, Hive, Spark"
+  - name: "Data Visualization"
+    level: "Master"
+    keywords:
+      - "Plotly"
+      - "Seaborn"
+      - "Tableau"
+      - "PowerBI"
+      - "Adobe Illustrator"
+      - "Adobe Photoshop"
+  - name: "Statistics"
+    level: "Master"
+    keywords:
+      - "R"
+      - "Stata"
+      - "SPSS"
+      - "Minitab"
+  - name: "Other"
+    level: "Master"
+    keywords:
+      - "Cloud platforms (AWS, GCP)"
+      - "Git"
+      - "WordPress"
+      - "Drupal"
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+  - language: "French"
+    fluency: "Full professional proficiency"
