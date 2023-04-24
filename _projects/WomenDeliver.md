@@ -13,6 +13,6 @@ image:
     480w:  /assets/img/projects/wd2019-240.png
 links:
   - title: Link to News Article
-    url: -	https://www.thestar.com/politics/federal/2019/06/04/ottawa-pledges-14-billion-over-10-years-for-global-womens-health-including-abortion-services.html
+    url: https://www.thestar.com/politics/federal/2019/06/04/ottawa-pledges-14-billion-over-10-years-for-global-womens-health-including-abortion-services.html
 sitemap: false
 ---
