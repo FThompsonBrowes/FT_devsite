@@ -3,7 +3,7 @@ layout: project
 title: 'Women Deliver Conference 2019'
 caption: Ottawa pledges $14 billion over 10 years for global womens health including abortion services
 description: >
-  The CanWaCH team, along with member organizations, successfully lobby the Canadian Government to achieve investment target. 
+  The CanWaCH team, along with member organizations, successfully lobby the Canadian Government to achieve investment target. Ottawa pledges $14 billion over 10 years for global womens health including abortion services.
 date: '06-04-2019'
 image: 
   path: /assets/img/projects/wd2019-960.png
