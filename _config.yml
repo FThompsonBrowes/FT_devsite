@@ -51,6 +51,8 @@ author:
 menu:
   - title:             Resumé
     url:               /resume/
+  - title:             News Articles
+    url:               /news/
   - title:             Projects
     url:               /projects/
 
