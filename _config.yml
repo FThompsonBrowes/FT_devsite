@@ -53,6 +53,8 @@ menu:
     url:               /resume/
   - title:             News Articles
     url:               /news/
+  - title:             Other Projects*
+    url:               /other_projects/
   - title:             Projects
     url:               /projects/
 
@@ -300,6 +302,13 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
+
+# Our new projects collection
+  other_projects:
+# Make sure the permalink path is different!
+    permalink:        /other-projects/:path/
+    output:           true
+
 
 
 # File inclusion/exclusion
