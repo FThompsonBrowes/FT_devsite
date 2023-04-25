@@ -52,7 +52,7 @@ menu:
   - title:             Resumé
     url:               /resume/
   - title:             News Articles
-    url:               /news/
+    url:               /news_articles/
   - title:             Other Projects
     url:               /other_projects/
   - title:             Projects
@@ -310,9 +310,9 @@ collections:
     output:           true
 
 # Our new projects collection
-  news:
+  news_articles:
 # Make sure the permalink path is different!
-    permalink:        /news/:path/
+    permalink:        /news-articles/:path/
     output:           true
 
 
