@@ -309,6 +309,11 @@ collections:
     permalink:        /other-projects/:path/
     output:           true
 
+# Our new projects collection
+  news:
+# Make sure the permalink path is different!
+    permalink:        /news/:path/
+    output:           true
 
 
 # File inclusion/exclusion
