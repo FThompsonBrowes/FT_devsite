@@ -1,7 +1,7 @@
 ---
-layout: news
+layout: projects
 title: News Articles
-show_collection: news
+show_collection: projects
 description: >
   Testing 1,2,3 
 no_groups: true
