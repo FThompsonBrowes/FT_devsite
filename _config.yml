@@ -413,6 +413,16 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
+    news:
+      layout: news
+      description: > 
+        A short ~160 character description of your post for search engines,
+        social media previews, etc.
+      image:
+        path: /assets/img/sidebar-bg.jpg
+      links:
+        - title: News Link
+          url: https://example.com
     projects:
       layout: project
       description: > 

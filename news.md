@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: news
 title: News Articles
 show_collection: news
 description: >
