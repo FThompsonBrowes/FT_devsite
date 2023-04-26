@@ -1,39 +1,20 @@
 ---
 layout: project
-title: '@qwtel'
-caption: How I use Hydejack on my personal site.
+title: 'Adopt a Village (AAV) program launch in Udaipur, India'
+caption: 60 million girls' grant will fund over 1,000 beneficiaries, including 250 children of whom 50-70% will be girls. Project activities include funding for education and water access, sanitization, and hygiene (WASH). 
 description: >
-  This is how I use Hydejack on my personal site. 
-  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
-date: 1 Jun 2020
+  60 million girls' grant, in partnership with Free the Children, funded the launch of the Adopt a Village (AAV) program in a new community in Udaipur over the first two years of a 5-year implementation plan. Free The Children (FTC) beneficiaries in Udaipur, India, are comprised of such groups, namely Adivasis, Dalits and OBC. In India, approximately 41% of children not attending school are ST, SC and OBC peoples.
+
+  The 2007 Humanitarian Project and Community Outreach group established a cooperative relationship with local government officials in Udaipur, India and established the locations for the permanent outreach centre and program office. 
+date: '07-01-2007'
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/projects/wd2019-960.png
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    1920w: /assets/img/projects/wd2019-960.png
+    960w:  /assets/img/projects/wd2019-480.png
+    480w:  /assets/img/projects/wd2019-240.png
 links:
-  - title: Link
-    url: https://qwtel.com/
-accent_color: '#4fb1ba'
-accent_image:
-  background: '#193747'
-theme_color: '#193747'
+  - title: Link to News Article
+    url: https://60millionsdefilles.org/en/our-projects/2010-india/
 sitemap: false
 ---
-
-For my personal site I've toned it down a bit. Instead of a flashy sidebar image, I chose a solid background color.
-However, I've given [certain](https://qwtel.com/projects/ducky-hunting/) [pages](https://qwtel.com/projects/blocky-blocks/) big sidebar images, and let Hydejack blend back to normal when the user navigates away.
-
-While I love the font used for Hydejack's headings, for my personal site I felt less of a need to control the typesetting.
-That's why I'm not using Google Fonts, and instead use whatever is the default for the reader's operating system.
-
-```yml
-google_fonts: false
-font:         false
-font_heading: false
-font_code:    false
-```
-
-The configuration I use to enable the system font on my site. Feel free to copy!
-{:.figcaption}
