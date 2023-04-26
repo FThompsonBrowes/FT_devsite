@@ -1,10 +1,10 @@
 ---
 layout: project
-title: 'Hydejack Site'
-caption: Dogfooding Hydejack to sell Hydejack.
+title: 'Top 100 Recovery Project Award 2020 - CanWaCH Project Explorer tool'
+caption: Future of Good celebrates the top 100 recovery projects that are helping communities and tackling the United Nations Sustainable Developments Goals (SDGs).
 description: >
-  While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
-date: '01-01-2016'
+  The Project Explorer is a data sharing tool detailing and visualizing 1000+ Canadian-invested projects to support responsive programming. Led by CanWaCH (the Canadian Partnership for Women and Children’s Health), the tool allows you to search, understand and deliver progressive programming better for achievement of greater impact. It is creating a cultural shift when it comes to data-sharing, accountability and learning within Canada’s international development community.
+date: '10-01-2020'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
   srcset: 
