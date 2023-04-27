@@ -1,7 +1,7 @@
 ---
 layout: project
-title: 'Ottawa pledges $14 billion over 10 years for global womens health including abortion services'
-caption: Women Deliver Conference 2019
+title: 'Interview with Stemcell Technology'
+caption: SCWIST - Society for Canadian Women in Science and Technology
 description: >
   The CanWaCH team, along with partner organizations, successfully lobby the Canadian Government to achieve investment target at the 2019 Women Deliver Conference in Vancouver, Canada. 
 
