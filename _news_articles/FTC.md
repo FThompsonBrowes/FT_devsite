@@ -8,11 +8,11 @@ description: >
   The 2007 Humanitarian Project and Community Outreach group established a cooperative relationship with local government officials in Udaipur, India and established the locations for the permanent outreach centre and program office. 
 date: '07-01-2007'
 image: 
-  path: /assets/img/projects/ftc2007-960.png
+  path: /assets/img/projects/ftc960-asset.png
   srcset: 
-    1920w: /assets/img/projects/ftc2007-960.png
-    960w:  /assets/img/projects/ftc2007-480.png
-    480w:  /assets/img/projects/ftc2007-240.png
+    1920w: /assets/img/projects/ftc960-asset.png
+    960w:  /assets/img/projects/ftc480-asset.png
+    480w:  /assets/img/projects/ftc240-asset.png
 links:
   - title: Link to News Article
     url: https://60millionsdefilles.org/en/our-projects/2010-india/
