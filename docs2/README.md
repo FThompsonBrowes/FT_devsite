@@ -28,12 +28,6 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 * [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
 {:.related-posts.faded}
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
-
 [install]: install.md
 [upgrade]: upgrade.md
 [config]: config.md
@@ -42,6 +36,3 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 [scripts]: scripts.md
 [build]: build.md
 [advanced]: advanced.md
-[LICENSE]: ../LICENSE.md
-[NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md
