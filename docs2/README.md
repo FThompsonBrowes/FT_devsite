@@ -28,7 +28,7 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 * [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
 {:.related-posts.faded}
 
-[install]: install.md
+[install]: CanWaCH-Gender-Equality-Infographic-2018.jpg
 [upgrade]: upgrade.md
 [config]: config.md
 [basics]: basics.md
