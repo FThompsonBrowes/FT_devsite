@@ -20,9 +20,8 @@ Examples of past work product, research and data methodology, and writing sample
 {:.related-posts.faded}
 
 ## Français
-* [CanSFE Résumé de la méthodologie-Plateforme Analytique]{:.heading.flip-title} --- CanSFE Résumé de la méthodologie Plateforme Analytique
-* [Enquête sur l’approvisionnement d’équipements en radiologie]{:.heading.flip-title} --- Conseil en recherche idata-
-Un exemple de texte d'enquête
+* [CanSFE Résumé de la méthodologie-Plateforme Analytique]{:.heading.flip-title} --- CanSFE Résumé de la méthodologie Plateforme Analytique 2020
+* [Enquête sur l’approvisionnement d’équipements en radiologie]{:.heading.flip-title} --- Conseil en recherche idata-Un exemple de texte d'enquête
 * [Croix-Rouge canadienne-Prévoir l’imprévisible 2015]{:.heading.flip-title} --- Présentation de la gestion des catastrophes-Croix-Rouge canadienne
 {:.related-posts.faded}
 
