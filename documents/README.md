@@ -28,13 +28,13 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 * [Résumé_de_la_méthodologie-Plateforme_Analytique]{:.heading.flip-title} --- CanSFE Résumé de la méthodologie Plateforme Analytique 11.2020
 * [Enquête_sur_l’approvisionnement_d’équipements_en_radiologie]{:.heading.flip-title} --- Conseil en recherche idata - 
 Un exemple de texte d'enquête
-* [Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015]{:.heading.flip-title} --- présentation de la gestion des catastrophes - Croix-Rouge canadienne
+* [Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015]{:.heading.flip-title} --- Présentation de la gestion des catastrophes - Croix-Rouge canadienne
 {:.related-posts.faded}
 
-[Analytics_Portal_Methodology]: CanWaCH-Analytics_Portal_Methodology-Nov-12-2020.docx
+[Analytics_Portal_Methodology]: CanWaCH-Analytics_Portal_Methodology-Nov-12-2020.pdf
 [SRHR_Neglected_Areas_Report]: CanWaCH-SRHR_Neglected_Areas_Full_Summary_Report_(Final).docx
 [Gender_Equality_Infographic]: CanWaCH-Gender-Equality-Infographic-2018.jpg
-[Résumé_de_la_méthodologie-Plateforme_Analytique]: CanSFE-Résumé_de_la_méthodologie-Plateforme_Analytique-Nov-12-2020.docx
+[Résumé_de_la_méthodologie-Plateforme_Analytique]: CanSFE-Résumé_de_la_méthodologie-Plateforme_Analytique-Nov-12-2020.pdf
 [Enquête_sur_l’approvisionnement_d’équipements_en_radiologie]: Enquête-sur-l’approvisionnement-d’équipements-en-radiologie-2017.pdf
 [European_Market_Research_Report_Gynaecology_2016]: European_Market_Research_Report_Gynaecology2016.docx
 [Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015]: Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015.ppt
