@@ -54,7 +54,7 @@ menu:
   - title:             Publications
     url:               /documents/
   - title:             News Articles
-    url:               /news_articles/
+    url:               /news/
   - title:             Projects
     url:               /projects/
 
@@ -304,9 +304,9 @@ collections:
     output:            true
 
 # Our new projects collection
-  news_articles:
+  news:
 # Make sure the permalink path is different!
-    permalink:        /news-articles/:path/
+    permalink:        /news/:path/
     output:           true
 
 
