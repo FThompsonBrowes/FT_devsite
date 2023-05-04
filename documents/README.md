@@ -6,11 +6,11 @@ sitemap: false
 permalink: /documents/
 ---
 
-Examples of research and data methodology, past work product, and writing samples in English & French.
+Examples of past work product, research and data methodology, and writing samples in English & French.
 
 
 ## English
-* [Analytics_Portal_Methodology]{:.heading.flip-title} --- CanWaCH Analytics Portal Methodology
+* [Analytics Portal Methodology]{:.heading.flip-title} --- CanWaCH Analytics Portal Methodology
 * [SRHR_Neglected_Areas_Report]{:.heading.flip-title} --- Canadian Neglected Areas of Sexual and Reproductive Health and Rights 2017-2020
 * [Gender_Equality_Infographic]{:.heading.flip-title} --- Infographic created by Fallyn Thompson & New Breed Design
 * [European_Market_Research_Report_Gynaecology_2016]{:.heading.flip-title} --- Market Research Report Sample, iData Research
@@ -26,7 +26,7 @@ Un exemple de texte d'enquête
 * [Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015]{:.heading.flip-title} --- Présentation de la gestion des catastrophes - Croix-Rouge canadienne
 {:.related-posts.faded}
 
-[Analytics_Portal_Methodology]: CanWaCH-Analytics_Portal_Methodology-Nov-12-2020.pdf
+[Analytics Portal Methodology]: CanWaCH-Analytics_Portal_Methodology-Nov-12-2020.pdf
 [SRHR_Neglected_Areas_Report]: CanWaCH-SRHR_Neglected_Areas_Full_Summary_Report_(Final).docx
 [Gender_Equality_Infographic]: CanWaCH-Gender-Equality-Infographic-2018.jpg
 [Résumé_de_la_méthodologie-Plateforme_Analytique]: CanSFE-Résumé_de_la_méthodologie-Plateforme_Analytique-Nov-12-2020.pdf
