@@ -306,7 +306,7 @@ collections:
 # Our new projects collection
   news:
 # Make sure the permalink path is different!
-    permalink:        /news/:path/
+    permalink:        /news2/:path/
     output:           true
 
 
