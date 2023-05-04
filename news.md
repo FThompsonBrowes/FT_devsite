@@ -1,5 +1,5 @@
 ---
 layout: projects
 title: News Articles
-show_collection: news_articles #!!
+show_collection: news #!!
 ---
