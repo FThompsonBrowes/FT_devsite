@@ -3,7 +3,7 @@ title: Publications
 description: >
 hide_description: true
 sitemap: false
-permalink: /documents/
+permalink: /publications/
 ---
 
 Examples of past work product, research and data methodology, and writing samples in English & French.
