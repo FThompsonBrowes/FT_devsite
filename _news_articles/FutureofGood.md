@@ -12,7 +12,7 @@ image:
     960w:  /assets/img/projects/top480.png
     480w:  /assets/img/projects/top240.png
 links:
-  - title: Link
-    url: https://hydejack.com/
+  - title: Link to News Article
+    url: https://100recoveryprojects.futureofgood.co/sdg/the-canwach-project-explorer
 sitemap: false
 ---
