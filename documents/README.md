@@ -6,26 +6,21 @@ sitemap: false
 permalink: /documents/
 ---
 
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
-
-While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
-{:.note}
+Examples of research and data methodology, past work product, and writing samples in English & French.
 
 
 ## English
-* [Analytics_Portal_Methodology]{:.heading.flip-title} --- CanWaCH Analytics Portal Methodology 11.2020
-* [SRHR_Neglected_Areas_Report]{:.heading.flip-title} --- Canadian investments and activities in Neglected Areas of Sexual and Reproductive Health and Rights between 2017-2020
-* [Gender_Equality_Infographic]{:.heading.flip-title} --- Created by Fallyn Thompson & New Breed Design
-* [European_Market_Research_Report_Gynaecology_2016]{:.heading.flip-title} --- iData Research - Market Research Report Sample
-* [UNICEF-Zinc_Saves_Kids-Presentation2010]{:.heading.flip-title} --- International Zinc Association initiative in support of UNICEF
+* [Analytics_Portal_Methodology]{:.heading.flip-title} --- CanWaCH Analytics Portal Methodology
+* [SRHR_Neglected_Areas_Report]{:.heading.flip-title} --- Canadian Neglected Areas of Sexual and Reproductive Health and Rights 2017-2020
+* [Gender_Equality_Infographic]{:.heading.flip-title} --- Infographic created by Fallyn Thompson & New Breed Design
+* [European_Market_Research_Report_Gynaecology_2016]{:.heading.flip-title} --- Market Research Report Sample, iData Research
+* [UNICEF-Zinc_Saves_Kids-Presentation2010]{:.heading.flip-title} --- International Zinc Association presentation - UNICEF Zinc Saves Kids initiative
 * [Zinc_Nutrient_Initiative-Technical_Presentation2010]{:.heading.flip-title} --- Zinc Nutrient Initiative Presentation, Micronutrients Seminar Brasil
 * [Zinc_Nutrient_Initiative_Newsletter_Aug2010]{:.heading.flip-title} --- India adopts Nutrient-Based Subsidization Scheme and Includes National Zinc Subsidy
 {:.related-posts.faded}
 
 ## French
-* [Résumé_de_la_méthodologie-Plateforme_Analytique]{:.heading.flip-title} --- CanSFE Résumé de la méthodologie Plateforme Analytique 11.2020
+* [Résumé_de_la_méthodologie-Plateforme_Analytique]{:.heading.flip-title} --- CanSFE Résumé de la méthodologie Plateforme Analytique
 * [Enquête_sur_l’approvisionnement_d’équipements_en_radiologie]{:.heading.flip-title} --- Conseil en recherche idata - 
 Un exemple de texte d'enquête
 * [Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015]{:.heading.flip-title} --- Présentation de la gestion des catastrophes - Croix-Rouge canadienne
