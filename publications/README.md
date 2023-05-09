@@ -26,12 +26,12 @@ Examples of past work product, research and data methodology, and writing sample
 {:.related-posts.faded}
 
 [CanWaCH Analytics Portal Methodology]: CanWaCH-Analytics_Portal_Methodology-Nov-12-2020.pdf
-[SRHR Neglected Areas Report]: CanWaCH-SRHR_Neglected_Areas_Full_Summary_Report_(Final).docx
+[SRHR Neglected Areas Report]: CanWaCH-SRHR_Neglected_Areas_Full_Summary_Report_(Final).pdf
 [Gender Equality Infographic]: CanWaCH-Gender-Equality-Infographic-2018.jpg
 [CanSFE Résumé de la méthodologie-Plateforme Analytique]: CanSFE-Résumé_de_la_méthodologie-Plateforme_Analytique-Nov-12-2020.pdf
 [Enquête sur l’approvisionnement d’équipements en radiologie]: Enquête-sur-l’approvisionnement-d’équipements-en-radiologie-2017.pdf
-[European Market Research Report Gynaecology 2016]: European_Market_Research_Report_Gynaecology2016.docx
-[Croix-Rouge canadienne-Prévoir l’imprévisible 2015]: Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015.ppt
+[European Market Research Report Gynaecology 2016]: European_Market_Research_Report_Gynaecology2016.pdf
+[Croix-Rouge canadienne-Prévoir l’imprévisible 2015]: Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015.pdf
 [UNICEF Zinc Saves Kids Presentation]: UNICEF-Zinc_Saves_Kids-Presentation2010.pdf
 [Zinc Nutrient Initiative-Technical Presentation]: Zinc_Nutrient_Initiative-Technical_Presentation2010.pdf
 [Zinc Nutrient Initiative Newsletter-Aug2010]: Zinc_Nutrient_Initiative_Newsletter_Aug2010.pdf
