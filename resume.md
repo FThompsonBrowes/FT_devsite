@@ -18,5 +18,5 @@ right_column:
 no_language_icons: false
 no_skill_icons: false
 buttons:
-  pdf: /assets/Fallyn_Thompson_Resume_2023.pdf
+  pdf: /assets/Fallyn_Thompson_Resume.pdf
 ---
