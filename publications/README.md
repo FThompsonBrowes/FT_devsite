@@ -20,7 +20,7 @@ Examples of past work product, research and data methodology, and writing sample
 {:.related-posts.faded}
 
 ## Français
-* [CanSFE Résumé de la méthodologie-Plateforme Analytique]{:.heading.flip-title} --- CanSFE Résumé de la méthodologie Plateforme Analytique 2020
+* [Résumé de la méthodologie-Plateforme analytique du CanSFE]{:.heading.flip-title} --- Résumé de la méthodologie-Plateforme analytique du CanSFE 2020
 * [Enquête sur l’approvisionnement d’équipements en radiologie]{:.heading.flip-title} --- Conseil en recherche idata-Un exemple de texte d'enquête
 * [Croix-Rouge canadienne-Prévoir l’imprévisible 2015]{:.heading.flip-title} --- Présentation de la gestion des catastrophes-Croix-Rouge canadienne
 {:.related-posts.faded}
@@ -28,7 +28,7 @@ Examples of past work product, research and data methodology, and writing sample
 [CanWaCH Analytics Portal Methodology]: CanWaCH-Analytics_Portal_Methodology-Nov-12-2020.pdf
 [SRHR Neglected Areas Report]: CanWaCH-SRHR_Neglected_Areas_Full_Summary_Report_(Final).pdf
 [Gender Equality Infographic]: CanWaCH-Gender-Equality-Infographic-2018.jpg
-[CanSFE Résumé de la méthodologie-Plateforme Analytique]: CanSFE-Résumé_de_la_méthodologie-Plateforme_Analytique-Nov-12-2020.pdf
+[Résumé de la méthodologie-Plateforme analytique du CanSFE]: Résumé_de_la_méthodologie-Plateforme_analytique_du_CanSFE-Nov-12-2020.pdf
 [Enquête sur l’approvisionnement d’équipements en radiologie]: Enquête-sur-l’approvisionnement-d’équipements-en-radiologie-2017.pdf
 [European Market Research Report Gynaecology 2016]: European_Market_Research_Report_Gynaecology2016.pdf
 [Croix-Rouge canadienne-Prévoir l’imprévisible 2015]: Croix-Rouge-canadienne_Prévoir_l’imprévisible_2015.pdf
