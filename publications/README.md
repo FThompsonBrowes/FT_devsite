@@ -16,7 +16,7 @@ Examples of past work product, research and data methodology, and writing sample
 * [European Market Research Report Gynaecology 2016]{:.heading.flip-title} --- Market Research Report Sample, iData Research
 * [UNICEF Zinc Saves Kids Presentation]{:.heading.flip-title} --- International Zinc Association-UNICEF Zinc Saves Kids initiative 2010
 * [Zinc Nutrient Initiative-Technical Presentation]{:.heading.flip-title} --- Zinc Nutrient Initiative, Micronutrients Seminar Brasil 2010
-* [Zinc Nutrient Initiative Newsletter-Aug2010]{:.heading.flip-title} --- India adopts Nutrient-Based Subsidization Scheme and Includes National Zinc Subsidy
+* [Zinc Nutrient Initiative Newsletter-Aug2010]{:.heading.flip-title} --- India adopts Nutrient-Based Subsidization Scheme and includes National Zinc Subsidy
 {:.related-posts.faded}
 
 ## Français
