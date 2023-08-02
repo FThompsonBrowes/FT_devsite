@@ -3,7 +3,7 @@ layout: project
 title: 'Implementing Tableau&#39s JavaScript API'
 caption: How to filter multiple dashboards together using iFrames
 description: > 
-    Building on the Tableau Knowledge Base resources, this post is meant to provide detailed instructions and the code required to implement Tableau's JavaScript API and filter multiple dashboards simutaneously on your personal or company website. 
+    Building on the Tableau Knowledge Base resources, this post is meant to provide detailed instructions and the code required to implement Tableau's JavaScript API, filtering multiple dashboards simutaneously on your personal or company website. 
 date: '01-01-2019'
 image: 
   path: /assets/img/projects/crc960-asset.png
@@ -60,7 +60,8 @@ The below code uses a data field "selGoC" in the Tableau Workbooks. This is a te
   /*This line renames the Tableau data field from "selGoC" in the workbook to use "Funding Source" as the name of the filter on the website.*/
   <label for="selGoC">Funding Source:</label> 
   <select id="selGoC" name="GoC"> 
-  /*The following are the three filter options in Tableau. Again the default options in the Tableau workbook of "All, 0, 1" are not helpful to the reader. This renames all the defaults to useful labels in the filter drop-down that will appear on the website.*/
+  /*The following are the three filter options in Tableau. Again the default options in the Tableau workbook of "All, 0, 1" are not helpful to the reader.*/ 
+  /*This renames all the defaults to useful labels in the filter drop-down that will appear on the website.*/
   <option value="">All</option>
   <option value="1">Government of Canada</option>
   <option value="0">Other Funding</option>
@@ -123,7 +124,7 @@ Next, repeat the code for the filters from above. This will enable the filters t
 </select>
 ```
 
-Once all dashboards have been added, remember to add the following code:
+Once all dashboards have been added, remember to add the following code at the end of this step:
 
 ```java
 </select>
@@ -150,18 +151,18 @@ function submitForm(e) {
 ### Step 5:
 Now that we have the filter boxes created, we need to connect the filters to the Tableau dashboards. The below code is the "magic" that will apply the chosen filters to all the iFrames and each Tableau Workbook per iFrame. 
 
-The code below includes a section per iFrame and Tableau Workbook. For this example, the code is included for the first two Tableau Public Workbooks for brevity *(The full code in available on the GitHub repo linked above for all 4 separate iFrames and Tableau Workbooks)*. 
+The code below includes a section per iFrame and Tableau Workbook. For brevity, the code below only includes the first two iFrames and Tableau Workbooks. (The full code is available on the GitHub repo linked above for all 4 separate iFrames and Tableau Workbooks)*.
 
 ```java
  var hiddenDiv = document.getElementById("hidden-frame");
 
   this.target = 'first_iframe';
-  this.action= 'https://public.tableau.com/views/Beta2020_6_EN_CS_p1of4_V2_16886160818890/CountrySnapshot';
+  this.action= 'https://public.tableau.com/views/INSERT YOUR FIRST TABLEAU WORKBOOK URL HERE';
   this.submit();
 
   var secondForm = this.cloneNode(true);
   console.log(secondForm);
-  secondForm.action = "https://public.tableau.com/views/Beta2020_7_EN_CS_p2of4_V1_NewRep_Org/CountrySnapshot";
+  secondForm.action = "https://public.tableau.com/views/INSERT YOUR SECOND TABLEAU WORKBOOK URL HERE";
   secondForm.method = "get";
   secondForm.elements["Parameters.Country"].value = this.elements["Parameters.Country"].value;
   secondForm.elements["GoC"].value = this.elements["GoC"].value;
