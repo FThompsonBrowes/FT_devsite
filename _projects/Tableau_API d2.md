@@ -1,9 +1,9 @@
 ---
 layout: project
-title: 'Implementation of the Tableau JavaScript API'
+title: 'Implementing Tableau's JavaScript API'
 caption: How to filter multiple dashboards together using iFrames
 description: > 
-  Testing 1,2,3
+    Building on the Tableau Knowledge Base resources, this post is meant to provide detailed instructions and the code required to implement Tableau's JavaScript API and filter multiple dashboards simutaneously on your personal or company website. 
 date: '01-01-2019'
 image: 
   path: /assets/img/projects/crc960-asset.png
@@ -29,6 +29,7 @@ View the working set of dashboards here:
 Before you begin, this post requires: 
 
   1) a Tableau Public account
+  
   2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
 
 *Note: The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.*
