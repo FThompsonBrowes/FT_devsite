@@ -28,8 +28,15 @@ View the working set of dashboards here:
 
 Before you begin, this post requires: 
   1) a Tableau Public account
+<<<<<<< HEAD:_projects/Tableau_API d1.md
   2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
 *Note:* The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.
+=======
+  
+  2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
+
+*Note: The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.*
+>>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
 
 ### Step 1: 
 The first step is to create an iFrame for a new page on your website using the site generator of your choice (WordPress, Drupal, Jekyll etc.). 
@@ -50,8 +57,13 @@ The first step is to create an iFrame for a new page on your website using the s
 ### Step 2: 
 Build the filter that all dashboards will use. This will be the same data field that all workbooks share and has been added as a filter to all the sheets of your Tableau Workbooks. It is also possible to use more than one filter. 
 
+<<<<<<< HEAD:_projects/Tableau_API d1.md
 Simple Filter:
 For example, this code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual (it was supposed to be short for Select Government of Canada as a project funder). 
+=======
+**Simple Filter:**
+The below code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual! *(it was supposed to be short for Select Government of Canada as a project funder)*. 
+>>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
 
 ```java
   <label for="selGoC">Funding Source:</label> #This line renames the Tableau data field from "selGoC" in the workbook to use "Funding Source" as the name of the filter on the website.
@@ -71,7 +83,11 @@ For example, this code uses a data field "selGoC" in the Tableau Workbooks. This
 </form>
 ```
 
+<<<<<<< HEAD:_projects/Tableau_API d1.md
 Complex Filter: 
+=======
+**Complex Filter:** 
+>>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
 If your filter has many options and is a long drop-down list (Ex. all the countries in the world), you can build a more complex filter such as the code below: 
 
 ```java
