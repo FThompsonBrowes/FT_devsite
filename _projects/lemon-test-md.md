@@ -6,11 +6,11 @@ description: >
     Marco-polo
 date: '01-01-2019'
 image: 
-  path: /assets/img/projects/crc960-asset.png
+  path: 
   srcset: 
-    1920w: /assets/img/projects/crc960-asset.png
-    960w:  /assets/img/projects/crc480-asset.png
-    480w:  /assets/img/projects/crc240-asset.png
+    1920w: 
+    960w:  
+    480w:  
 links:
   - title: Link to GitHub Code
     url: https://github.com/FThompsonBrowes/Tableau_JavaScript_API
