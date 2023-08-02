@@ -30,13 +30,13 @@ Before you begin, this post requires:
 
   1) a Tableau Public account
   2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
-  
-*Note:* The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.
+
+*Note: The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.*
 
 ### Step 1: 
 The first step is to create an iFrame for a new page on your website using the site generator of your choice (WordPress, Drupal, Jekyll etc.). 
 
-*Note:* Step 1 includes setting up the first iFrame and Tableau Dashboard. The Tableau Workbook URL used in the first iFrame will display at the top of the webpage. The remaining iFrames and dashboards will be added in Step 3 below. The Tableau Workbook URL used in the second iFrame will display below the first etc. etc. Step 3 determines the order the dashboards will appear.
+*Note: Step 1 includes setting up the first iFrame and Tableau Dashboard. The Tableau Workbook URL used in the first iFrame will display at the top of the webpage. The remaining iFrames and dashboards will be added in Step 3 below. The Tableau Workbook URL used in the second iFrame will display below the first etc. etc. Step 3 determines the order the dashboards will appear.*
 
 ```java
 <div class="node__content l-embed">
@@ -52,16 +52,19 @@ The first step is to create an iFrame for a new page on your website using the s
 ### Step 2: 
 Build the filter that all dashboards will use. This will be the same data field that all workbooks share and has been added as a filter to all the sheets of your Tableau Workbooks. It is also possible to use more than one filter. 
 
-Simple Filter:
-For example, this code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual (it was supposed to be short for Select Government of Canada as a project funder). 
+**Simple Filter:**
+The below code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual! *(it was supposed to be short for Select Government of Canada as a project funder)*. 
 
 ```java
-  <label for="selGoC">Funding Source:</label> #This line renames the Tableau data field from "selGoC" in the workbook to use "Funding Source" as the name of the filter on the website.
+  /*This line renames the Tableau data field from "selGoC" in the workbook to use "Funding Source" as the name of the filter on the website.*/
+  <label for="selGoC">Funding Source:</label> 
   <select id="selGoC" name="GoC"> 
-  <option value="">All</option> #These are the three filter options in Tableau. Again the default options in the Tableau workbook of "All, 0, 1" are not helpful to the reader. This renames all the defaults to useful labels in the filter drop-down that will appear on the website. 
+  /*The following are the three filter options in Tableau. Again the default options in the Tableau workbook of "All, 0, 1" are not helpful to the reader. This renames all the defaults to useful labels in the filter drop-down that will appear on the website.*/
+  <option value="">All</option>
   <option value="1">Government of Canada</option>
   <option value="0">Other Funding</option>
-  <!-- <option value="2">2</option> --> #This will hide option 2 so that it does not appear in the dropdown filter on the website for improved UX.
+  /*This will hide option 2 so that it does not appear in the dropdown filter on the website for improved UX.*/
+  <!-- <option value="2">2</option> --> 
 </select>
 ```
 
@@ -73,15 +76,16 @@ For example, this code uses a data field "selGoC" in the Tableau Workbooks. This
 </form>
 ```
 
-Complex Filter: 
+**Complex Filter:** 
 If your filter has many options and is a long drop-down list (Ex. all the countries in the world), you can build a more complex filter such as the code below: 
 
 ```java
 <label for="selCountry">Country:</label>
-<select id="selCountry" name="Parameters.Country"> #Note: The Parameters.Country is a Tableau Parameter Action included in the Workbooks and Dashboards!
+/*Note: The Parameters.Country is a Tableau Parameter Action included in the Workbooks and Dashboards!*/
+<select id="selCountry" name="Parameters.Country"> 
    <option value="Afghanistan">Afghanistan</option>
    <option value="Åland Islands">Åland Islands</option
-   ...<Add more lines with remaining choices following the same format as above>
+   /*...<Add more lines with remaining choices following the same format as above>*/
 </select>
 <input type="submit" id="mainsubmit" value="Show Country Snapshot">
 </form>
@@ -91,7 +95,7 @@ If your filter has many options and is a long drop-down list (Ex. all the countr
 Next, we need to set-up the code to add the remaining iFrames and dashboards. Repeat the following code for all remaining workbooks. You'll notice if we refer back to Step 1, the code includes: 
 
 ```java
-  target="first_iframe" action="https://public.tableau.com/views/**INSERT YOUR FIRST TABLEAU WORKBOOK URL HERE**""> 
+  target="first_iframe" action="https://public.tableau.com/views/INSERT YOUR FIRST TABLEAU WORKBOOK URL HERE""> 
 ```
 
 When we repeat the code from step 1, change this line to reference the second workbook that you want to use and change target="first_iframe" to target="second_iframe" instead. You can also refer to the GitHub Repo link above for the full code. 
@@ -99,7 +103,7 @@ When we repeat the code from step 1, change this line to reference the second wo
 Code Example: 
 
 ```java
-<div style="display: none; hidden: true;" id="hidden-frame">Nothing here...<form method="get" id="mainform" target="second_iframe" action="https://public.tableau.com/views/**INSERT YOUR SECOND TABLEAU WORKBOOK URL HERE**">
+<div style="display: none; hidden: true;" id="hidden-frame">Nothing here...<form method="get" id="mainform" target="second_iframe" action="https://public.tableau.com/views/INSERT YOUR SECOND TABLEAU WORKBOOK URL HERE">
 <input type="hidden" name=":embed" value="yes">
 <input type="hidden" name=":showVizHome" value="no">
 <input type="hidden" name=":display_count" value="yes">
