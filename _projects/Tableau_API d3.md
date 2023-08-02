@@ -101,7 +101,7 @@ Next, we need to set-up the code to add the remaining iFrames and dashboards. Re
   target="first_iframe" action="https://public.tableau.com/views/INSERT YOUR FIRST TABLEAU WORKBOOK URL HERE""> 
 ```
 
-When we repeat the code from step 1, change this line to reference the second workbook that you want to use and change target="first_iframe" to target="second_iframe" instead. You can also refer to the GitHub Repo link above for the full code. 
+When we repeat the code from step 1, change this line to reference the **second workbook** that you want to use and change target="first_iframe" to target="second_iframe" instead. You can also refer to the GitHub Repo link above for the full code. 
 
 Code Example: 
 
@@ -133,7 +133,7 @@ Once all dashboards have been added, remember to add the following code:
 ```
 
 ### Step 4: 
-To complete the filters for our webpage, we need to create a function so that the page reloads when the filters are selected. 
+To complete the filters for our webpage, we need to create a function so that the page reloads when the filters are selected.
 
 ```java
 </div>
@@ -151,7 +151,7 @@ function submitForm(e) {
 ### Step 5:
 Now that we have the filter boxes created, we need to connect the filters to the Tableau dashboards. The below code is the "magic" that will apply the chosen filters to all the iFrames and each Tableau Workbook per iFrame. 
 
-The code should include a section per iFrame and Tableau Workbook. For this example, the code is included for the first two Tableau Public Workbooks for brevity *(The full code in available on the GitHub repo for all 4 separate iFrames and Tableau Workbooks)*. 
+The code below includes a section per iFrame and Tableau Workbook. For this example, the code is included for the first two Tableau Public Workbooks for brevity *(The full code in available on the GitHub repo linked above for all 4 separate iFrames and Tableau Workbooks)*. 
 
 ```java
  var hiddenDiv = document.getElementById("hidden-frame");
@@ -177,13 +177,15 @@ Finally, we need to set-up a default view when the page first loads and before a
 
 ```java
 /* Set the starting display. */
-document.getElementById('mainform').elements["Parameters.Country"].value = "Haiti"; #The default filter is set to display the country Haiti. 
+/* The default filter is set to display the country Haiti.*/
+document.getElementById('mainform').elements["Parameters.Country"].value = "Haiti";  
 document.getElementById('mainsubmit').click();
 
 };
 </script>
- 
-<iframe name="first_iframe" width="1100" height="1250" frameborder="0"></iframe> #Setting the iFrame dimensions for the webpage. This should match the dimensions of the Tableau Dashboard. 
+
+/* Set the iFrame dimensions for the webpage. This should match the dimensions of the Tableau Dashboard.*/ 
+<iframe name="first_iframe" width="1100" height="1250" frameborder="0"></iframe> 
 <iframe name="second_iframe" width="1100" height="750" frameborder="0"></iframe></div>
       
       </div>
