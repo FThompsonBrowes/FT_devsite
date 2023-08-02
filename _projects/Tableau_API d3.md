@@ -29,7 +29,6 @@ View the working set of dashboards here:
 Before you begin, this post requires: 
 
   1) a Tableau Public account
-  
   2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain **1 tableau dashboard only**. 
 
 *Note: The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.*
