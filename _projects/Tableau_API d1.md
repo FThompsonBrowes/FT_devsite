@@ -2,26 +2,39 @@
 layout: project
 title: 'Implementation of the Tableau JavaScript API'
 caption: How to filter multiple dashboards together using iFrames
-description: >
-  Tableau Knowledge Base offers a basic introduction to "Filter a Dashboard From Another Dashboard" with resources available <a href="https://kb.tableau.com/articles/howto/filtering-a-dashboard-using-action-filters-passed-from-another-dashboard" target="_blank">here</a>.
+description: > 
+  Testing 1,2,3
+date: '01-01-2019'
+image: 
+  path: /assets/img/projects/crc960-asset.png
+  srcset: 
+    1920w: /assets/img/projects/crc960-asset.png
+    960w:  /assets/img/projects/crc480-asset.png
+    480w:  /assets/img/projects/crc240-asset.png
+links:
+  - title: Link to GitHub Code
+    url: https://github.com/FThompsonBrowes/Tableau_JavaScript_API
+sitemap: false
+---
 
-  This project for CanWaCH utilized the Tableau JavaScript API to filter a series of four dashboards simutaneously. The Tableau GitHub Repository with the full code in English and French is linked above. This project post in intended to provide more thorough instructions for anyone who wishes to utilize the same method for their own projects. 
+Tableau Knowledge Base offers a basic introduction to "Filter a Dashboard From Another Dashboard" with resources available <a href="https://kb.tableau.com/articles/howto/filtering-a-dashboard-using-action-filters-passed-from-another-dashboard" target="_blank">here</a>.
+
+This project for CanWaCH utilized the Tableau JavaScript API to filter a series of four dashboards simutaneously. The Tableau GitHub Repository with the full code in English and French is linked above. This project post in intended to provide more thorough instructions for anyone who wishes to utilize the same method for their own projects. 
   
-  View the working set of dashboards here: 
+View the working set of dashboards here: 
   
   * <a href="http://insertlink" target="_blank">Set of 4 Dashboards - EN</a>
   * <a href="http://insertlink" target="_blank">Set of 4 Dashboards - FR</a>
 
-  Before you begin, this post requires: 
-    1) a Tableau Public account
-    2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
-  *Note:* The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.
+Before you begin, this post requires: 
+  1) a Tableau Public account
+  2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
+*Note:* The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.
 
-  ### Step 1: 
-  The first step is to create an iFrame for a new page on your website using the site generator of your choice (WordPress, Drupal, Jekyll etc.). 
+### Step 1: 
+The first step is to create an iFrame for a new page on your website using the site generator of your choice (WordPress, Drupal, Jekyll etc.). 
 
-  *Note:* Step 1 includes setting up the first iFrame and Tableau Dashboard. The Tableau Workbook URL used in the first iFrame will display at the top of the webpage. 
-    The remaining iFrames and dashboards will be added in Step 3 below. The Tableau Workbook URL used in the second iFrame will display below the first etc. etc. Step 3 determines the order the dashboards will appear.
+*Note:* Step 1 includes setting up the first iFrame and Tableau Dashboard. The Tableau Workbook URL used in the first iFrame will display at the top of the webpage. The remaining iFrames and dashboards will be added in Step 3 below. The Tableau Workbook URL used in the second iFrame will display below the first etc. etc. Step 3 determines the order the dashboards will appear.
 
 ```java
 <div class="node__content l-embed">
@@ -34,11 +47,11 @@ description: >
 <input type="hidden" name=":display_count" value="yes">
 ```
 
-  ### Step 2: 
-  Build the filter that all dashboards will use. This will be the same data field that all workbooks share and has been added as a filter to all the sheets of your Tableau Workbooks. It is also possible to use more than one filter. 
+### Step 2: 
+Build the filter that all dashboards will use. This will be the same data field that all workbooks share and has been added as a filter to all the sheets of your Tableau Workbooks. It is also possible to use more than one filter. 
 
-  Simple Filter:
-  For example, this code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual (it was supposed to be short for Select Government of Canada as a project funder). 
+Simple Filter:
+For example, this code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual (it was supposed to be short for Select Government of Canada as a project funder). 
 
 ```java
   <label for="selGoC">Funding Source:</label> #This line renames the Tableau data field from "selGoC" in the workbook to use "Funding Source" as the name of the filter on the website.
@@ -58,8 +71,8 @@ description: >
 </form>
 ```
 
-  Complex Filter: 
-  If your filter has many options and is a long drop-down list (Ex. all the countries in the world), you can build a more complex filter such as the code below: 
+Complex Filter: 
+If your filter has many options and is a long drop-down list (Ex. all the countries in the world), you can build a more complex filter such as the code below: 
 
 ```java
 <label for="selCountry">Country:</label>
@@ -168,17 +181,3 @@ document.getElementById('mainsubmit').click();
 ```
 
 Hopefully these instructions are helpful for anyone who wants to upload multiple tableau dashboards to a webpage! This project was completed for The Canadian Partnership for Women and Children's Health by Blackcat Informatics® Inc. and was written by Patrick Audley with support by Fallyn Thompson. 
-
-
-date: '01-01-2019'
-image: 
-  path: /assets/img/projects/crc960-asset.png
-  srcset: 
-    1920w: /assets/img/projects/crc960-asset.png
-    960w:  /assets/img/projects/crc480-asset.png
-    480w:  /assets/img/projects/crc240-asset.png
-links:
-  - title: Link to GitHub Code
-    url: https://github.com/FThompsonBrowes/Tableau_JavaScript_API
-sitemap: false
----
