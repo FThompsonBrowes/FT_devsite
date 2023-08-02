@@ -28,8 +28,15 @@ View the working set of dashboards here:
 
 Before you begin, this post requires: 
   1) a Tableau Public account
+<<<<<<< HEAD:_projects/Tableau_API d1.md
   2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
 *Note:* The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.
+=======
+  
+  2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
+
+*Note: The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.*
+>>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
 
 ### Step 1: 
 The first step is to create an iFrame for a new page on your website using the site generator of your choice (WordPress, Drupal, Jekyll etc.). 
@@ -57,6 +64,9 @@ For example, this code uses a data field "selGoC" in the Tableau Workbooks. This
 **Simple Filter:**
 The below code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual! *(it was supposed to be short for Select Government of Canada as a project funder)*. 
 <<<<<<< HEAD:_projects/Tableau_API d1.md
+<<<<<<< HEAD:_projects/Tableau_API d1.md
+>>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
+=======
 >>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
 =======
 >>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
@@ -84,6 +94,9 @@ Complex Filter:
 =======
 **Complex Filter:** 
 <<<<<<< HEAD:_projects/Tableau_API d1.md
+<<<<<<< HEAD:_projects/Tableau_API d1.md
+>>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
+=======
 >>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
 =======
 >>>>>>> parent of 533dd3c (API post - updating formatting p2):_projects/Tableau_API d2.md
