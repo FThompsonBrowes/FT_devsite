@@ -30,7 +30,7 @@ Before you begin, this post requires:
 
   1) a Tableau Public account
   
-  2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain one **tableau dashboard**. 
+  2) create and upload all the Tableau Workbooks that you want to filter together to your Tableau Public account. Each workbook should contain **1 tableau dashboard only**. 
 
 *Note: The set of Tableau Workbooks must contain a shared data field and all workbooks must use the shared data field as a filter on all **tableau workbook sheets**.*
 
@@ -44,7 +44,7 @@ The first step is to create an iFrame for a new page on your website using the s
         
             <div class="clearfix text-formatted field field--name-field-embed-code field--type-text-long field--label-hidden field__item"><script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script><script src="https://public.tableau.com/javascripts/api/tableau-2.6.0.min.js"></script>
 <div id="vizContainer"></div>
-<form method="get" id="mainform" target="first_iframe" action="**INSERT YOUR FIRST TABLEAU WORKBOOK URL HERE**">
+<form method="get" id="mainform" target="first_iframe" action="INSERT YOUR FIRST TABLEAU WORKBOOK URL HERE">
 <input type="hidden" name=":embed" value="yes">
 <input type="hidden" name=":showVizHome" value="no">
 <input type="hidden" name=":display_count" value="yes">
@@ -54,7 +54,8 @@ The first step is to create an iFrame for a new page on your website using the s
 Build the filter that all dashboards will use. This will be the same data field that all workbooks share and has been added as a filter to all the sheets of your Tableau Workbooks. It is also possible to use more than one filter. 
 
 **Simple Filter:**
-The below code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual! *(it was supposed to be short for Select Government of Canada as a project funder)*. 
+
+The below code uses a data field "selGoC" in the Tableau Workbooks. This is a terrible name if you're not the person who made this visual! See the markdown in the code below for how to update the label for your website filter. 
 
 ```java
   /*This line renames the Tableau data field from "selGoC" in the workbook to use "Funding Source" as the name of the filter on the website.*/
@@ -78,6 +79,7 @@ The below code uses a data field "selGoC" in the Tableau Workbooks. This is a te
 ```
 
 **Complex Filter:** 
+
 If your filter has many options and is a long drop-down list (Ex. all the countries in the world), you can build a more complex filter such as the code below: 
 
 ```java
