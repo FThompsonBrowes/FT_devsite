@@ -3,7 +3,7 @@ layout: project
 title: 'Implementing Tableau&#39s JavaScript API'
 caption: How to filter multiple dashboards together using iFrames
 description: > 
-    Building on the Tableau Knowledge Base resources, this post is meant to provide detailed instructions and the code required to implement Tableau's JavaScript API, filtering multiple dashboards simutaneously on your personal or company website. 
+    Building on the Tableau Knowledge Base resources, this post is meant to provide detailed instructions and the code required to implement Tableau's JavaScript API, filtering multiple dashboards together using iFrames on your personal or company website. 
 date: '01-01-2019'
 image: 
   path: /assets/img/projects/crc960-asset.png
